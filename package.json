@@ -1,0 +1,15 @@
+{
+  "name": "aoc2022",
+  "version": "1.0.0",
+  "description": "Advent of Code",
+  "main": "index.js",
+  "scripts": {
+    "day1a": "node day1/day1a.js",
+    "day1b": "node day1/day1b.js",
+    "day2a": "node day2/day2a.js",
+    "day2b": "node day2/day2b.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Brunner",
+  "license": "MIT"
+}
