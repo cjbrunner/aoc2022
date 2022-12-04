@@ -70,6 +70,7 @@
     "no-multiple-empty-lines": "error",
     "no-trailing-spaces": "error",
     "no-whitespace-before-property": "error",
+    "no-unused-vars": "warn",
     "nonblock-statement-body-position": "error",
     // "object-curly-newline": "error", NOTE: Makes named arguments harder to read
     "object-curly-spacing": "error",
