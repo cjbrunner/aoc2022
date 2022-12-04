@@ -3,13 +3,24 @@
   "version": "1.0.0",
   "description": "Advent of Code",
   "main": "index.js",
+  "engines": {
+    "node": "16"
+  },
   "scripts": {
     "day1a": "node day1/day1a.js",
     "day1b": "node day1/day1b.js",
     "day2a": "node day2/day2a.js",
     "day2b": "node day2/day2b.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "day3a": "node day3/day3a.js",
+    "day3b": "node day3/day3b.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "author": "Chris Brunner",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0"
+  }
 }

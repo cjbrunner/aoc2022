@@ -1,0 +1,105 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "prettier"
+  ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    // Nrrdbot-specific rules
+    "no-param-reassign": "off", // Note: we use this a lot in this codebase
+    // EOPS-specific rules
+    "no-console": "off",
+    // Rules from Airbnb JavaScript Style Guide
+    "semi": "error",
+    "array-bracket-newline": "error",
+    "array-bracket-spacing": "error",
+    "array-callback-return": "error",
+    "arrow-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "block-spacing": "error",
+    "brace-style": "error",
+    "camelcase": "error",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline"
+      }
+    ],
+    "class-methods-use-this": "error",
+    "comma-spacing": "error",
+    "comma-style": "error",
+    "complexity": "error",
+    "computed-property-spacing": "error",
+    "default-param-last": "error",
+    "eol-last": "error",
+    "func-call-spacing": "error",
+    "func-style": "error",
+    "function-paren-newline": "error",
+    "id-length": "off",
+    "implicit-arrow-linebreak": "error",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "key-spacing": "error",
+    "keyword-spacing": "error",
+    "max-len": "off",
+    "new-cap": "error",
+    "newline-per-chained-call": "error",
+    "no-confusing-arrow": "error",
+    "no-duplicate-imports": "error",
+    "no-loop-func": "error",
+    "no-plusplus": "off",
+    "no-mixed-operators": "error",
+    "no-multiple-empty-lines": "error",
+    "no-trailing-spaces": "error",
+    "no-whitespace-before-property": "error",
+    "nonblock-statement-body-position": "error",
+    // "object-curly-newline": "error", NOTE: Makes named arguments harder to read
+    "object-curly-spacing": "error",
+    "operator-linebreak": [
+      "error",
+      "after",
+      {
+        "overrides": {
+          "?": "before",
+          ":": "before",
+          "=": "none" // Only part from style guide
+        }
+      }
+    ],
+    "padded-blocks": "error",
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": true,
+        "object": true
+      }
+    ],
+    "prefer-rest-params": "error",
+    "quotes": "error",
+    // "quote-props": "error", NOTE: Changes some intentionally stringed keys like JSON payloads.
+    "space-before-blocks": "error",
+    "space-before-function-paren": "error",
+    "space-in-parens": "error",
+    "space-infix-ops": "error",
+    "template-curly-spacing": "error",
+    "wrap-iife": "error"
+  }
+}
