@@ -15,6 +15,8 @@
     "day3b": "node day3/day3b.js",
     "day4a": "node day4/day4a.js",
     "day4b": "node day4/day4b.js",
+    "day5a": "node day5/day5a.js",
+    "day5b": "node day5/day5b.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
   },
